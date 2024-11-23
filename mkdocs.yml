@@ -1,0 +1,25 @@
+site_name: Read With Heart
+theme:
+  name: material
+  language: zh
+  features:
+    - content.code.select
+    - content.code.copy
+    - content.code.annotate
+    - navigation.expand
+markdown_extensions:
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+copyright: Copyright &copy; 2024 Read With Heart
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/freenovel123
