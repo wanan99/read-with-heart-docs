@@ -2,6 +2,7 @@
 
 ## 请求示例
 
+### GET/POST
 ```javascript
 // 请求地址
 let url = 'https://www.baidu.com'; 
@@ -37,4 +38,9 @@ return {
 	header: {}, // 携带的header
 	cookie: {} // 携带的cookie
 };
+```
+
+### WebSocket
+```javascript
+// TODO
 ```
