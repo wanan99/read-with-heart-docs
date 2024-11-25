@@ -16,16 +16,18 @@
 | cookies   | cookies信息      | 用例：`config.cookies`   |                         |
 | openParams| 开放参数，可自定义 | 用例：`config.openParams`|                         |
 | verifyCode| 验证码           | 用例：`config.verifyCode`|                         |
+
 ### 搜索规则
 | 参数名称 | 说明 | 用例 |
 |:---|:---|:---|
 | keyword | 搜索关键词 | 用例：`config.keyword` |
 | url | 搜索地址 | 用例：`config.url` |
+
 ### 详情规则
 
 ### 章节列表规则
 | 参数名称   | 说明                             | 用例                     |
-|:----------|:---------------------------------|:------------------------|
+|:---|:---|:---|
 | bookUrl   | 章节列表url                       | 用例：`config.bookUrl`   |
 | infoUrl   | 书籍信息url                       | 如果书籍详情有规则，会先调用`infoUrl`请求，并获取`bookUrl` |
 | bookName  | 书籍名称                         | 用例：`config.bookName`  |
@@ -33,9 +35,10 @@
 | url       | 章节列表请求地址                   | 用例：`config.url`      |
 | pageIndex | 页码                             | 用例：`config.pageIndex`|
 | pageStart | 起始章节页数（老版本参数不建议使用） | 用于章节规则拼接，如第二章起，标记2 |
+
 ### 正文规则
 | 参数名称   | 说明               | 用例                     |
-|:----------|:-------------------|:------------------------|
+|:---|:---|:---|
 | bookUrl   | 章节列表Url         | 用例：`config.bookUrl`   |
 | bookName  | 书籍名称           | 用例：`config.bookName`  |
 | bookAuthor| 作者               | 用例：`config.bookAuthor`|
@@ -46,11 +49,13 @@
 | pageIndex | 页码               | 用例：`config.pageIndex`|
 | pageStart | 起始章节页数（老版本参数不建议使用） | 用于正文规则拼接，如第二章起，标记2 |
 | playUrl   | 如果`playUrl`规则为空，自动获取正文url和正文header | 用例：`config.playUrl`  |
+
 ### 发现规则
 | 参数名称 | 说明             | 用例                     |
-|:--------|------------------|:------------------------|
+|:---|:---|:---|
 | url     | 发现请求地址      | 用例：`config.url`       |
 | pageIndex | 章节页数序列      | 用例：`config.pageIndex` |
+
 ### 表达式
 
 APP内置了各种常用的表达式，可以进行替换获取和处理操作。
