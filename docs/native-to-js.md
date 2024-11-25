@@ -7,7 +7,10 @@ App暴露的Javascript方法，可以使用这些方法调用原生的组件！
 === "示例"
 
     ```javascript
+    // 方法名称内置了三种写法，可以根据喜好选择
     App.log('你好!', 'hello!')
+    app.log('你好!', 'hello!')
+    APP.log('你好!', 'hello!')
     ```
 === "API"
     
