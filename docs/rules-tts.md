@@ -64,7 +64,7 @@ return {
 | name      | 名称   | String | -   | 显示的名称        |
 
 ### 示例
-```javascript
+```json
 [
     {
         "voiceType" : "zh-zhangsan", // 语音标识
